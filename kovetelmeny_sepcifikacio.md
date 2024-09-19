@@ -1,0 +1,1 @@
+Ide mennek a kovetelmenyek
