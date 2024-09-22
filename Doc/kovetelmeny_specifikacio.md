@@ -26,7 +26,7 @@ adminisztrátor jogosultsággal belépés => új márka felvétele => leírás m
 
 adminisztrátor jogosultsággal belépés => márka törlése => véglegesítés
 
-#### 4.2.3. Értékelések összegzése
+#### 4.2.3. Értékelések összegzése //TODO nem biztos hogy van értelme
 
 adminisztrátor jogosultsággal belépés => összegzés
 
