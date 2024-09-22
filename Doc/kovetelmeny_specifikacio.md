@@ -2,7 +2,7 @@
 
 ## 1. Jelenlegi helyzet
 
-A Bon-Bon-Bolt nevű vállalkozásunk a díszes, nagy kiszerelésű bon-bonok és csokoláék mellett darab számra vásárolható bon-bonokat is árusít. A vásárlók ezek közül a leggyakrabban a Mozart golyót szokták választani. Észre vettük, hogy néhány kuncsaft nehezen tud választani az általunk tartott négy márka között, de mások olyan márkát keresnek amit mi nem forgalmazunk.
+A Bon-Bon-Bolt nevű vállalkozásunk a díszes, nagy kiszerelésű bon-bonok és csokoládék mellett darab számra vásárolható bon-bonokat is árusít. A vásárlók ezek közül a leggyakrabban a Mozart golyót szokták választani. Észre vettük, hogy néhány kuncsaft nehezen tud választani az általunk tartott négy márka között, de mások olyan márkát keresnek amit mi nem forgalmazunk.
 
 ## 2. Vágyálom rendszer
 
@@ -10,7 +10,7 @@ Szeretnénk egy honlapot, ahol a vásárlóink egy 5 pontos rendszerben tudják 
 
 ## 3. Jelenlegi üzleti folyamatok
 
-Édességek árusítása az üzletben
+Édességek árusítása az üzletben.
 
 ## 4. Igényelt üzleti folyamatok
 
@@ -25,10 +25,6 @@ adminisztrátor jogosultsággal belépés => új márka felvétele => leírás m
 #### 4.2.2. Márka eltávolítása
 
 adminisztrátor jogosultsággal belépés => márka törlése => véglegesítés
-
-#### 4.2.3. Értékelések összegzése //TODO nem biztos hogy van értelme
-
-adminisztrátor jogosultsággal belépés => összegzés
 
 ### 4.3. Regisztrált felhasználó
 
