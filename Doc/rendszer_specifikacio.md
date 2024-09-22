@@ -21,3 +21,22 @@ Az ütemterv első része az alábbiakat tartalmazza.
 ### Vendég által elérhető funkciók
 - leírás megtekintése
 - termék, és/vagy márka értékelésének megtekintése
+
+## Funkcionális követelmények
+### Admin által elérhető funkciók
+- minden más felhasználó által lehetséges funkció használata
+- vihet fel a rendszerbe webes felületen keresztül:
+ 	- új termék, és/vagy márka hozzáadása leírással
+	- termék levétele a felületről
+
+## Felülettel szemben támasztott követelmények
+- Web - az elkészített prototípusnak megfelelő
+- Könnyen üzemeltethető rendszer
+- Három szerepkör kezelése (admin, regisztrált, vendég)
+
+--------------------------------------
+
+## Adatbázis terv
+
+Karakterkódolás UTF8.
+<!--TODO-->
