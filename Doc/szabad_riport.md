@@ -1,5 +1,0 @@
-- Mit csináljon a rendszer?
-    - csokikat lehessen szerkeszteni
-    - Törölni az adatbázisból
-    - Csak a létező csokik 
-    - Leírásból csak akkor kell a teljes leírást megjeleníteni ha valaki rákattint a csempére
