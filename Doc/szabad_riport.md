@@ -1,0 +1,8 @@
+-Mit csináljon a rendszer?
+-Angol-magyar szópárokat lehessen szerkeszteni
+-Törölni a szótárból
+-Csak a szótárban lévő szavak jöjjenek elő
+-Nem lehet egyik sem hosszabb mint 80 karakter
+-Két módón lehessen használni az alkalmazást: angol-magyar, magyar angol szavak párosítása mindig négy-négy szó jelenjen meg kártyaként
+-A megfelelő párokat kell párosjtani a kártyák mozdításával
+-Ha kialakul egy jó pár nem kell voisszajelzést adni, amikor a felhasználó megnyomja a kész gombot zöld a jó pár piros a rossz pár
