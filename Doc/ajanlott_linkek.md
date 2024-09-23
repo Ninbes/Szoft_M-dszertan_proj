@@ -1,10 +1,10 @@
-# Használt linkek listázva
+# Használt linkek listája
 
-"**" Kanban board:
-    - trello.com 
+## **Kanban board:**
+- trello.com 
 
-"**" SZFM link:
-    - https://docs.google.com/document/d/1SLTerLGVVVNZYpdHiQyvoAFm2UTGbAKFHJur4bc3hjo/edit?usp=sharing
+## **SZFM link:**
+- https://docs.google.com/document/d/1SLTerLGVVVNZYpdHiQyvoAFm2UTGbAKFHJur4bc3hjo/edit?usp=sharing
 
-"**" Wire frame tool:
-   - Figma.com
+## **Wire frame tool:**
+- Figma.com
