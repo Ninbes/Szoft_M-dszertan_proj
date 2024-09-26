@@ -1,4 +1,4 @@
-package hu.inf.unideb.Bonbon.Entity;
+package hu.inf.unideb.bonbon.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

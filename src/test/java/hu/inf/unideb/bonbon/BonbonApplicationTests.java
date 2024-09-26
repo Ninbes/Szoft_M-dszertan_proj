@@ -1,4 +1,4 @@
-package hu.inf.unideb.Bonbon;
+package hu.inf.unideb.bonbon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

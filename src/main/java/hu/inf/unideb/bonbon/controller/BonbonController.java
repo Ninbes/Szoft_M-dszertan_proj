@@ -1,7 +1,11 @@
-package hu.inf.unideb.Bonbon.Controller;
+package hu.inf.unideb.bonbon.controller;
 
-import hu.inf.unideb.Bonbon.Entity.*;
+import hu.inf.unideb.bonbon.entity.*;
+import hu.inf.unideb.bonbon.service.BonbonService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/bonbons")

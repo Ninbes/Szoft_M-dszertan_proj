@@ -1,6 +1,6 @@
-package hu.inf.unideb.Bonbon.Repository;
+package hu.inf.unideb.bonbon.repository;
 
-import hu.inf.unideb.Bonbon.Entity.BonbonEntity;
+import hu.inf.unideb.bonbon.entity.BonbonEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

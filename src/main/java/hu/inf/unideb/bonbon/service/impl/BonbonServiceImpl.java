@@ -1,10 +1,10 @@
-package hu.inf.unideb.Bonbon.Service.impl;
+package hu.inf.unideb.bonbon.service.impl;
 
-import hu.inf.unideb.Bonbon.Entity.BonbonEntity;
-import hu.inf.unideb.Bonbon.Entity.RatingEntity;
-import hu.inf.unideb.Bonbon.Repository.BonbonRepository;
-import hu.inf.unideb.Bonbon.Repository.RatingRepository;
-import hu.inf.unideb.Bonbon.Service.BonbonService;
+import hu.inf.unideb.bonbon.entity.BonbonEntity;
+import hu.inf.unideb.bonbon.entity.RatingEntity;
+import hu.inf.unideb.bonbon.repository.BonbonRepository;
+import hu.inf.unideb.bonbon.repository.RatingRepository;
+import hu.inf.unideb.bonbon.service.BonbonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,11 +20,11 @@ public class BonbonServiceImpl implements BonbonService {
     @Autowired
     private RatingRepository ratingRepository;
 
-    public List<BonbonEntity> getAllItems() {
+    public List<BonbonEntity> getAllBonbons() {
         return bonbonRepository.findAll();
     }
 
-    public BonbonEntity addItem(BonbonEntity bonbon) {
+    public BonbonEntity addBonbon(BonbonEntity bonbon) {
         return bonbonRepository.save(bonbon);
     }
 
