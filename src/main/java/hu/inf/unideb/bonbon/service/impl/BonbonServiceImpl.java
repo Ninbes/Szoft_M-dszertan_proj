@@ -36,9 +36,9 @@ public class BonbonServiceImpl implements BonbonService {
     }
 
     public List<BonbonEntity> getBonbonsSortedByRating() {
-        List<BonbonEntity> items = bonbonRepository.findAll();
-        items.sort(Comparator.comparingDouble(this::calculateAverageRating).reversed());
-        return items;
+        List<BonbonEntity> bonbons = bonbonRepository.findAll();
+        bonbons.sort(Comparator.comparingDouble(this::calculateAverageRating).reversed());
+        return bonbons;
     }
 
     private double calculateAverageRating(BonbonEntity bonbon) {
