@@ -19,7 +19,6 @@ public class RatingEntity {
     private BonbonEntity bonbon;
 
     private int rating; // 1 to 5
-    private String review; // Optional field for comments
 
     public void setId(Long id) {
         this.id = id;
@@ -40,13 +39,4 @@ public class RatingEntity {
     public void setRating(int rating) {
         this.rating = rating;
     }
-
-    public String getReview() {
-        return review;
-    }
-
-    public void setReview(String review) {
-        this.review = review;
-    }
-
 }
