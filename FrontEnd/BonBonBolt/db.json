@@ -1,0 +1,50 @@
+{
+    "bonbons":[
+        {
+            "id":1,
+            "name": "Echten Reber Mozart-Kugel",
+            "brand": "Reber",
+            "ingredients": "mogyorós praliné, pisztácia marcipán, mandula marcipán, tejcsokoládá, étcsokoládé",
+            "history": "A márka története 1865-ben kezdődött amikor Peter Reber megnyitotta első cukrászda-kávézóját Münchenben. 73 év folyamatos működés után 1938-ban költözött át a kávézó Bad Reichenhall-ba, ahol a cég székhelye ma is található. A cég vezetését azóta a család ötödik generációja látja el és valamennyi Reber csokoládé hagyományos családi receptek alapján készül, így az eredeti Reber Mozart Kugel, több mint 100 éve változatlan.",
+            "photo": "/assets/reber.jpg",
+            "rate": 4.7
+          },
+          {
+            "id":2,
+            "name": "Mirabell Mozart-Kugel",
+            "brand": "Mirabell",
+            "ingredients": "világos nugátkrém, sötét nugátkrém, marcipán, étcsokoládé",
+            "history": "A Mirabell az egyik leghíresebb osztrák márka, amely nagy hagyományokra tekint vissza. Az igazi Mozart golyókat még mindig az eredeti recept szerint gyártják. A Grödigben található gyárban (Mozart szülővárosának, Salzburgnak külvárosában) 14 lépés és körülbelül 2,5 óra gyártás szükséges minden golyó legyártásához.",
+            "photo": "/assets/mirabell.jpg",
+            "rate": 3.9
+          },
+          {
+            "id":3,
+            "name": "Victor Schmidt Mozartkugel",
+            "brand": "Victor Schmidt",
+            "ingredients":"világos nugátkrém, mandula marcipán, étcsokoládé",
+            "history":"A Mozartkugel már az 1920-as években a Salzburgi Fesztivál elengedhetetlen része volt. A 20. század második felétől ezek nagy fellendülésen mentek keresztül, ami azt jelentette, hogy a Mozartkugeln iránti kereslet hirtelen megnőtt. Ezt a hagyományos kézi gyártási módszerrel már nem lehetett lefedni. Ezért Victor Schmidt olyan korszerű gyártási módszert dolgozott ki, amely lehetővé tette nagyobb mennyiségek előállítását a történelmi receptúra ​​és minőség megőrzése mellett.",
+            "photo":"/assets/VictorSchidt.jpg",
+            "rate":4.5
+          },
+          {
+            "id":4,
+            "name":"Original Salzburger MozartKugel",
+            "brand":"Fürst",
+            "ingredients": "pisztácia marcipán, söté nugátkrém, étcsokoládé",
+            "history":"1890-ben PAULFürst salzburgi cukrász feltalálta a ma már világhírű salzburgi Mozartkugelt. Kezdetben ezt Mozart cukorkának is nevezték, hogy leírják a teljesen új praliné. Finom alkotása, a pisztáciával készült marcipán, nugáttal és étcsokoládéval borítva, hamar a város leghíresebb pralinéjává vált. Ahhoz, hogy megfeleljen a Mozartkugel névnek, a finomságnak tökéletesen gömbölyűnek kellett lennie, így minden egyes példányt egy pálcikára tettek, mielőtt csokoládéba mártották volna. Az EREDETI SALZBURGER MOZARTKUGELN ma is ezzel a gyártási eljárással készül.",
+            "photo":"/assets/Fürst.jpg",
+            "rate":5.0
+          },
+          {
+            "id":5,
+            "name":"Maître Truffout Mozartkugeln",
+            "brand":"Maître Truffout",
+            "ingredients":"pisztácia marcipán, mandula marcipán, mogyorós praliné, tejcsokoládé, étcsokoládé",
+            "history":" - ",
+            "photo":"/assets/maTr.jpg",
+            "rate":4.1
+          }
+      
+    ]
+}

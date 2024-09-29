@@ -47,20 +47,25 @@
   .buttons{
     padding: 1em;
   }
-  
- .rating {
-    unicode-bidi: bidi-override;
+  .rating{
+    padding: 1em;
     direction: rtl;
+    position: absolute;
   }
-  .rating > span {
-    display: inline-block;
-    position: relative;
-    width: 1.1em;
+  label::after{
+    content: "\2605";
   }
-  .rating > span:hover:before,
-  .rating > span:hover ~ span:before {
-     content: "\2605";
-     position: absolute;
+  label{
+    font-size: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 0 5px;
+  }
+  input[name="stars"]{
+    display: none;
+  }
+  input[type="radio"]:checked ~ label {
+    color: gold;
   }
   @media (max-width: 1024px) {
     .listing-photo {

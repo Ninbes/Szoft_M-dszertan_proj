@@ -12,7 +12,7 @@ import { BonbonService } from '../bonbon.service';
     <section>
       <form>
         <input type="text" placeholder="Írjon ide egy márkát" #filter>
-        <button class="primary" type="button" >Keres</button>
+        <button class="primary" type="button" (click)="filterResults(filter.value)">Keresés</button>
       </form>
     </section>
     <section class="results">

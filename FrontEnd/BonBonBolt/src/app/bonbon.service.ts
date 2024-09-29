@@ -5,7 +5,8 @@ import { BonbonBrands } from './bonbon-brands';
 })
 export class BonbonService {
   
-  url='http://localhost:9090/bonbons/';
+  /*url='http://localhost:9090/bonbons/';*/
+  url='http://localhost:3000/bonbons';
 
   constructor() { }
 
@@ -16,5 +17,8 @@ export class BonbonService {
   async getBonbonBrandsById(id: Number): Promise<BonbonBrands | undefined>{
     const data=await fetch(`${this.url}/${id}`);
     return await data.json() ?? {};
+  }
+  rateApplication(rate: number){
+    console.log(rate);
   }
 }
