@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { BonbonComponent } from './bonbon/bonbon.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, BonbonComponent],
   template: `
   <main>
     <header class="brand-name">
@@ -12,7 +13,7 @@ import { RouterOutlet } from '@angular/router';
       <h1>Bon-Bon-Bolt</h1>
     </header>
     <section class="content">
-      <router-outlet></router-outlet>
+      <app-bonbon></app-bonbon>
     </section>
     
   </main>
