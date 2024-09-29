@@ -9,5 +9,4 @@ public class BonbonApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BonbonApplication.class, args);
 	}
-
 }
