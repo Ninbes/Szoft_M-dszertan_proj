@@ -1,10 +1,10 @@
-CREATE TABLE bonbon_entity (
+CREATE TABLE BONBON_ENTITY (
                                id BIGINT AUTO_INCREMENT PRIMARY KEY,
                                name VARCHAR(255),
                                description VARCHAR(255)
 );
 
-CREATE TABLE rating_entity (
+CREATE TABLE RATING_ENTITY (
                                id BIGINT AUTO_INCREMENT PRIMARY KEY,
                                bonbon_id BIGINT,
                                rating INT,
