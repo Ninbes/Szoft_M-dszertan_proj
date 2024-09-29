@@ -18,7 +18,7 @@ public class BonbonEntity{
     private String name;
     private String description;
 
-    @OneToMany(mappedBy = "item", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "bonbon", cascade = CascadeType.ALL)
     private List<RatingEntity> ratings = new ArrayList<>();
     public String getName() {
         return name;
