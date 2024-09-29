@@ -44,6 +44,8 @@ export class DetailsComponent {
   bonbonBrands: BonbonBrands | undefined;
   constructor(){
     const bonbonBrandsId=Number(this.route.snapshot.params['id']);
-    this.bonbonBrands=this.bonbonService.getBonbonBrandsById(bonbonBrandsId);
+    this.bonbonService.getBonbonBrandsById(bonbonBrandsId).then(bonbonBrands =>{
+      this.bonbonBrands=bonbonBrands;
+    });
   }
 }

@@ -16,7 +16,7 @@ import { BonbonService } from '../bonbon.service';
       </form>
     </section>
     <section class="results">
-    <app-bonbon-brands *ngFor="let bonbonBrands of bonbonBrandsList" [bonbonBrands]="bonbonBrands"></app-bonbon-brands>
+    <app-bonbon-brands *ngFor="let bonbonBrands of filteredBonbonBrandsList" [bonbonBrands]="bonbonBrands"></app-bonbon-brands>
     </section>
   `,
   styleUrl: './bonbon.component.css'
@@ -24,7 +24,17 @@ import { BonbonService } from '../bonbon.service';
 export class BonbonComponent {
   bonbonBrandsList: BonbonBrands[]=[];
   bonbonService: BonbonService=inject(BonbonService);
+  filteredBonbonBrandsList:BonbonBrands[]=[];
   constructor(){
-    this.bonbonBrandsList=this.bonbonService.getAllBonbonBrands();
+    this.bonbonService.getAllBonbonBrands().then((bonbonBrandsList: BonbonBrands[])=>{
+      this.bonbonBrandsList=bonbonBrandsList;
+      this.filteredBonbonBrandsList=bonbonBrandsList;
+    });
+  }
+  filterResults(text:string){
+    if(!text) this.filteredBonbonBrandsList=this.bonbonBrandsList;
+    this.filteredBonbonBrandsList=this.bonbonBrandsList.filter(
+      bonbonBrands => bonbonBrands?.name.toLowerCase().includes(text.toLowerCase())
+    );
   }
 }
