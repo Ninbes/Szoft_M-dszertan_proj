@@ -9,5 +9,5 @@ import java.util.List;
 
 @Repository
     public interface RatingRepository extends JpaRepository<RatingEntity, Long> {
-        List<RatingEntity> findByItem(BonbonEntity bonbon);
+        List<RatingEntity> findByBonbon(BonbonEntity bonbon);
     }
