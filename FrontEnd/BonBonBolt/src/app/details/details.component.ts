@@ -21,6 +21,19 @@ import { BonbonBrands } from '../bonbon-brands';
           <li>Történelem: {{bonbonBrands?.history}}</li>
         </ul>
       </section>
+      <section class="rating-section">
+        <h3 class="rating-head">Értékeld ezt a Mozart golyót: </h3>
+        <!--<div class="buttons">
+          <button type="submit" class="one"></button>
+          <button type="submit" class="two">2</button>
+          <button type="submit" class="three">3</button>
+          <button type="submit" class="four">4</button>
+          <button type="submit" class="five">5</button>
+          </div>-->
+          <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div>
+      </section>
     </article>
   `,
   styleUrl: './details.component.css'
