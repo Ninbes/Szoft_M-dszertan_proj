@@ -5,9 +5,20 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
+  template: `
+  <main>
+    <header class="brand-name">
+      <img class="brand-logo" src="/assets/logo.jpg" alt="logo" aria-hidden="true">
+      <h1>Bon-Bon-Bolt</h1>
+    </header>
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+    
+  </main>
+  `,
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'BonBonBolt';
+  title = 'Bon-Bon-Bolt';
 }

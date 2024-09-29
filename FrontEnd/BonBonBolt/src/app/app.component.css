@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    padding: 10px 20px;
+background-color: #925240;
+}
+header img{
+height: 100px;
+}
+header h1{
+font-style: italic;
+font-size: 3em;
+color: #b0d19b;
+margin:  auto 20px;
+background-color: transparent;
+
+}
+section{
+margin-top: 10px;
+margin-left: 10px;
+}
