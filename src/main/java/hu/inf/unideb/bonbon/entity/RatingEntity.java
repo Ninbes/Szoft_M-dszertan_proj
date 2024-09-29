@@ -1,21 +1,17 @@
 package hu.inf.unideb.bonbon.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.JoinColumn;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
+@Setter
+@Getter
 @Entity
+@Table(name = "rating_entity")
 public class RatingEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    public Long getId() {
-        return id;
-    }
 
 
     @ManyToOne
@@ -24,33 +20,5 @@ public class RatingEntity {
 
     private int rating; // 1 to 5
     private String review; // Optional field for comments
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public BonbonEntity getBonbon() {
-        return bonbon;
-    }
-
-    public void setBonbon(BonbonEntity bonbon) {
-        this.bonbon = bonbon;
-    }
-
-    public int getRating() {
-        return rating;
-    }
-
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
-
-    public String getReview() {
-        return review;
-    }
-
-    public void setReview(String review) {
-        this.review = review;
-    }
 
 }

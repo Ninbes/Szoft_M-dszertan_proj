@@ -42,7 +42,7 @@ public class BonbonServiceImpl implements BonbonService {
     }
 
     private double calculateAverageRating(BonbonEntity bonbon) {
-        List<RatingEntity> ratings = ratingRepository.findByItem(bonbon);
+        List<RatingEntity> ratings = ratingRepository.findByBonbon(bonbon);
         return ratings.stream().mapToInt(RatingEntity::getRating).average().orElse(0);
     }
 }

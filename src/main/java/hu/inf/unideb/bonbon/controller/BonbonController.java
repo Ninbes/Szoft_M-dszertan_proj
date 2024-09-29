@@ -1,8 +1,11 @@
 package hu.inf.unideb.bonbon.controller;
 
-import hu.inf.unideb.bonbon.entity.*;
+import hu.inf.unideb.bonbon.entity.BonbonEntity;
+import hu.inf.unideb.bonbon.entity.RatingEntity;
 import hu.inf.unideb.bonbon.service.BonbonService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -20,13 +23,13 @@ public class BonbonController {
     }
 
     @PostMapping
-    public BonbonEntity addBonbon(@RequestBody BonbonEntity bonbon) {
-        return bonbonService.addBonbon(bonbon);
+    public ResponseEntity<BonbonEntity> addBonbon(@RequestBody BonbonEntity bonbon) {
+        BonbonEntity createdBonbon = bonbonService.addBonbon(bonbon);
+        return new ResponseEntity<>(createdBonbon, HttpStatus.CREATED);
     }
 
-    @PostMapping("/{itemId}/rate")
+    @PostMapping("/{bonbonId}/rate")
     public RatingEntity rateBonbon(@PathVariable Long bonbonId, @RequestBody RatingEntity rating) {
-
         return bonbonService.addRating(bonbonId, rating);
     }
 
@@ -35,4 +38,3 @@ public class BonbonController {
         return bonbonService.getBonbonsSortedByRating();
     }
 }
-
