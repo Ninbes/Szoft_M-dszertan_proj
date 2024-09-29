@@ -24,7 +24,7 @@ public class BonbonController {
         return bonbonService.addBonbon(bonbon);
     }
 
-    @PostMapping("/{itemId}/rate")
+    @PostMapping("/{bonbonId}/rate")
     public RatingEntity rateBonbon(@PathVariable Long bonbonId, @RequestBody RatingEntity rating) {
 
         return bonbonService.addRating(bonbonId, rating);
