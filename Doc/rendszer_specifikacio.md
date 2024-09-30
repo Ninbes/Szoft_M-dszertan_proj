@@ -37,6 +37,14 @@ Az ütemterv első része az alábbiakat tartalmazza.
 --------------------------------------
 
 ## Adatbázis terv
+- h2 database in memory
 
+## Frontend
+- Angular
+
+## Backend
+- Java 21
+- Spring project
+- Maven
+  
 Karakterkódolás UTF8.
-<!--TODO-->
